@@ -3,7 +3,7 @@ layout: post
 title: "IIO Dummy module Experiment One: Play with iio_dummy "
 date: 2026-04-29 10:00:00 -0300
 categories: [Linux Kernel, FLUSP]
-tags: [IIO, Drivers, ARM64, Cross-Compilation, c, drivers]
+tags: [IIO, Drivers, ARM64, Cross-Compilation, c]
 ---
 
 As part of my journey in the Free Software Extension Group (FLUSP) at IME-USP, I recently tackled Tutorial 8, which focuses on the Industrial I/O (IIO) subsystem. The goal was to configure, compile, and interact with the `iio_dummy` driver. While the tutorial seems straightforward, the transition from theory to a functional virtual environment often presents non-trivial challenges.
