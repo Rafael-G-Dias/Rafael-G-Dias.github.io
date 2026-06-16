@@ -16,10 +16,10 @@ timezone: America/Sao_Paulo
 
 title: Rafael Dias # the main title
 
-tagline: 'Computer Science student at IME-USP. Documenting learnings in computing and open-source projects.' # it will display as the subtitle
+tagline: 'Computer Science student at IME-USP.' # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  omputer Science student at IME-USP. Documenting learnings in computing and open-source projects.
+  omputer Science student at IME-USP. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
