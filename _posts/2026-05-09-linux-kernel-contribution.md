@@ -10,13 +10,10 @@ Alongside my colleague Felipe Khoury Dayoub, I have just had my first contributi
 
 This contribution was part of our coursework as undergraduate students at the Institute of Mathematics and Statistics of the University of São Paulo (IME-USP). It quickly taught me that contributing to a massive open-source project is as much about understanding community workflows and software architecture as it is about writing code.
 
-### The Goal and The Git Send-Email Workflow
+### The Goal 
 
 Our mission was to refactor the included headers of the `drivers/iio/light/stk3310.c` file. Historically, many older drivers relied on catch-all headers like `<linux/kernel.h>` or `<linux/device.h>`, which hurts compilation times and tangles the dependency tree. The modern kernel standard is strict: include exactly what you use. To map this, we used the Include-What-You-Use (IWYU) tool.
 
-But before even getting feedback, simply *sending* the patch was my first technical hurdle. As a CS student used to GitHub pull requests, the kernel's email-based workflow is a paradigm shift. 
-
-When trying to use `git send-email` with Gmail's SMTP, I faced authentication failures. Standard passwords don't work; you need to configure an App Password via OAuth2. Furthermore, my Ubuntu environment threw a `No SASL mechanism found` error, which required installing the `libauthen-sasl-perl` library to allow Git to authenticate with Google's servers. Once configured, we sent our V1 patch to the mailing list.
 
 ### The Architecture Lesson [V1]
 
